@@ -31,24 +31,24 @@ import matplotlib.pyplot as plt
 
 
 
-    print(highs)
-    print(dates)
+print(highs)
+print(dates)
     
-    fig = plt.figure()
+fig = plt.figure()
 
     
 
-    plt.title("Daily high temperatures, July 2018", fontsize=16)
-    plt.xlabel("", fontsize=12)
-    plt.ylabel("Temperature (F)", fontsize=12)
-    plt.tick_params(axis="both", which="major",labelsize=12)
+plt.title("Daily high temperatures, July 2018", fontsize=16)
+plt.xlabel("", fontsize=12)
+plt.ylabel("Temperature (F)", fontsize=12)
+plt.tick_params(axis="both", which="major",labelsize=12)
 
 
-    plt.plot(dates, highs, c="red")
+plt.plot(dates, highs, c="red")
 
    
-    fig.autofmt_xdate()
+fig.autofmt_xdate()
 
 
 
-    plt.show()
+plt.show()
