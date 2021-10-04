@@ -19,6 +19,12 @@ highs = []
 dates = []
 
 
+#testing the datetime strptime function
+mydate = datetime.strptime('2018-07-01', '%Y-%m-%d')
+print(mydate)
+print(type(mydate))
+
+
 for row in csv_file:
     highs.append(int(row[5]))
     the_date = datetime.strptime(row[2],'%Y-%m-%d')
