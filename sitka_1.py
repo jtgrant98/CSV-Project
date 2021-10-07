@@ -29,4 +29,4 @@ for row in csv_file:
 
     plt.plot(highs, c="red")
 
-    plt.show()
+plt.show()
